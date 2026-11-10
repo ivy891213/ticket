@@ -2,6 +2,12 @@
   "last_available": [],
   "history": [
     {
+      "at": "2026-11-10T05:06:22+00:00",
+      "status": "error",
+      "found_dates": [],
+      "email": "not_needed"
+    },
+    {
       "at": "2026-11-10T04:57:49+00:00",
       "status": "error",
       "found_dates": [],
@@ -26,7 +32,7 @@
       "email": "not_needed"
     }
   ],
-  "last_checked_utc": "2026-11-10T04:57:49+00:00",
+  "last_checked_utc": "2026-11-10T05:06:22+00:00",
   "status": "error",
   "note": "頁面連線失敗：Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://l-tike.com/st1/ghibli-en-2/Tt/Tth050selectdayseatcount/index?c_LCODE=38012&c_SCHEDULE_NO=1&c_ENTRY_MTHD=02&c_BASE_VENUE_CD=30033",
   "found": [],
