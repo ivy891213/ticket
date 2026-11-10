@@ -86,7 +86,11 @@ def check_page():
                 context = browser.new_context(locale='ja-JP', timezone_id='Asia/Tokyo', viewport={'width': 1280, 'height': 900})
                 page = context.new_page()
                 try:
-                    response = page.goto(CONFIG['url'], wait_until='domcontentloaded', timeout=45000)
+                    response = page.goto(
+    'https://l-tike.com/st1/ghibli-en-2/sitetop',
+    wait_until='domcontentloaded',
+    timeout=45000
+)
                     if response is None:
                         return 'unknown', [], '未取得 HTTP 回應'
                     code = response.status
