@@ -2,6 +2,12 @@
   "last_available": [],
   "history": [
     {
+      "at": "2026-11-14T11:11:28+00:00",
+      "status": "error",
+      "found_dates": [],
+      "email": "not_needed"
+    },
+    {
       "at": "2026-11-14T03:56:27+00:00",
       "status": "error",
       "found_dates": [],
@@ -122,7 +128,7 @@
       "email": "not_needed"
     }
   ],
-  "last_checked_utc": "2026-11-14T03:56:27+00:00",
+  "last_checked_utc": "2026-11-14T11:11:28+00:00",
   "status": "error",
   "note": "頁面連線失敗：Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://l-tike.com/st1/ghibli-en-2/sitetop",
   "found": [],
